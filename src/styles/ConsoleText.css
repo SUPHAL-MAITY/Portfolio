@@ -1,0 +1,7 @@
+.console-underscore.hidden {
+  visibility: hidden;
+}
+
+.console-underscore {
+  display: inline-block;
+}
