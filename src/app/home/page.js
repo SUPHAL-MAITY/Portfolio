@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import profilePic from "/public/suphal.png";
+import { motion } from "framer-motion";
 
 import ConsoleText from "@/components/TextEffect";
 import Link from "next/link";
@@ -10,16 +11,16 @@ import Link from "next/link";
 const Home = () => {
   return (
     <>
-      <div className="grid grid-cols-2 bg-neutral-700  p-4">
-        <div className="w-full h-3/4 bg-cyan-200 max-w-md b-4 pl-4 text-3xl font-serif font-bold bg-slate-100 border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+      <div className="grid grid-cols-2 bg-slate-200  p-4">
+        <div className="w-full h-3/4 bg-transparent max-w-md b-4 pl-4 text-3xl font-serif font-bold  border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
           <ConsoleText
             words={[
               "Hello Everyone",
-              "A FULL  STACK Developer, Specialised in MERN Stack",
-              "I am  SUPHAL ",
+              "How can I help you?",
+              "I am  SUPHAL . A FULL  STACK Developer, Specialised in MERN Stack. ",
             ]}
             targetId="text"
-            colors={["red", "rebeccapurple", "DodgerBlue"]}
+            colors={["red", "rebeccapurple", "#801109"]}
           />
 
           <div className="bg-transparent fixed bottom-0 left-0 w-full h-auto py-8 flex items-center justify-center gap-4 flex-wrap">
@@ -214,21 +215,36 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="pt-0">
+        {/* id="profile" */}
+        <motion.div 
+             
+             initial={{ opacity: 0, scale: 0.5 }}
+             animate={{ opacity: 1, scale: 1 }}
+             transition={{
+               duration: 0.8,
+               ease: [0, 0.71, 0.2, 1.01],
+               scale: {
+                 type: "spring",
+                 damping: 5,
+                 stiffness: 100,
+                 restDelta: 0.001
+               }
+             }}
+            className="pt-0 box">
          
             <Image
               className="transition-shadow  "
-              id="profile"
+             
               src={profilePic}
               alt="Picture of the author"
               style={{
-                width: "48%",
-                height: "50%",
+                width: "65%",
+                height: "60%",
                 borderRadius: "50%",
               }}
             />
           
-        </div>
+        </motion.div>
       </div>
     </>
   );

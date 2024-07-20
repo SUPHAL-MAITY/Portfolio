@@ -1,30 +1,18 @@
+import React from 'react'
+import MyCarousel from '@/components/Carousel'
+import Link from 'next/link'
 
-"use client";
 
-import React from "react";
-import Image from "next/image";
-import profilePic from "/public/suphal.png";
-import { motion } from "framer-motion";
 
-import ConsoleText from "@/components/TextEffect";
-import Link from "next/link";
-
-const Home = () => {
+const page = () => {
   return (
-    <>
-      <div className="grid grid-cols-2 bg-slate-200  p-4">
-        <div className="w-full h-3/4 bg-transparent max-w-md b-4 pl-4 text-3xl font-serif font-bold  border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
-          <ConsoleText
-            words={[
-              "Hello Everyone",
-              "How can I help you?",
-              "I am  SUPHAL . A FULL  STACK Developer, Specialised in MERN Stack. ",
-            ]}
-            targetId="text"
-            colors={["red", "rebeccapurple", "#801109"]}
-          />
+    <div className='bg-slate-200'>
+        <MyCarousel/>
 
-          <div className="bg-transparent fixed bottom-0 left-0 w-full h-auto py-8 flex items-center justify-center gap-4 flex-wrap">
+        <div className='text-center font-serif'>
+
+             
+             <div className="bottom-2 left-0 w-full h-auto py-8 flex items-center justify-center gap-4 flex-wrap">
             
             {/* Twitter */}
             <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
@@ -216,39 +204,11 @@ const Home = () => {
             </button>
           </div>
         </div>
-        {/* id="profile" */}
-        <motion.div 
-             
-             initial={{ opacity: 0, scale: 0.5 }}
-             animate={{ opacity: 1, scale: 1 }}
-             transition={{
-               duration: 0.8,
-               ease: [0, 0.71, 0.2, 1.01],
-               scale: {
-                 type: "spring",
-                 damping: 5,
-                 stiffness: 100,
-                 restDelta: 0.001
-               }
-             }}
-            className="pt-0 box">
          
-            <Image
-              className="transition-shadow  "
-             
-              src={profilePic}
-              alt="Picture of the author"
-              style={{
-                width: "65%",
-                height: "60%",
-                borderRadius: "50%",
-              }}
-            />
-          
-        </motion.div>
-      </div>
-    </>
-  );
-};
+        
+      
+    </div>
+  )
+}
 
-export default Home;
+export default page
