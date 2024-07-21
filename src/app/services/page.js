@@ -24,7 +24,7 @@ const Services = () => {
            Web Development
           </h5>
           <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-          Transform your online presence with expert web development services. Specializing in modern, responsive designs using MERN stack and Tailwind CSS. Let's create a powerful, user-friendly website for your business.
+          Transform your online presence with expert web development services. Specializing in modern, responsive designs using MERN stack and Tailwind CSS. Let us create a powerful, user-friendly website for your business.
           </p>
         </div>
         <div className="p-6 pt-0">
