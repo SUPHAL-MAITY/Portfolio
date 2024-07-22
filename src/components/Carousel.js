@@ -41,7 +41,7 @@ const MyCarousel = () => {
                         <h1 className='pt-20 font-bold font-serif text-9xl  '>02</h1>
                         
                         <div className=''>
-                                <h3 className='font-serif p-2 text-5xl text-red-700'>E-Commerce App</h3>
+                                <h3 className='font-serif p-2 text-5xl text-red-700'>E-Com App</h3>
                                 <h3 className='text-3xl'><span className='font-bold'></span>  <span className=''>React,MongoDb,Node js,Express</span></h3>
                                 <h3 className='text-2xl pt-2 font-mono  hover:underline'><Link href="https://github.com/SUPHAL-MAITY/ecommerce-mern-stack-project"><span className='font-bold text-slate-800'>GitHub </span> </Link></h3>
                                 <h3 className='text-2xl pt-1 font-mono  hover:underline'><Link href=""><span className='font-bold text-slate-800'>Linkedin </span> </Link></h3>
