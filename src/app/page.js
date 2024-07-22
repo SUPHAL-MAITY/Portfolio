@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <div className="grid grid-rows-2 sm:grid-cols-2 bg-slate-200  p-4">
-        <div className="w-full h-3/4 bg-transparent max-w-md b-4 pl-4 text-3xl font-serif font-bold  border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <div className="  bg-transparent max-w-md b-4 pl-4 text-3xl font-serif font-bold  border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
           <ConsoleText
             words={[
               "Hello Everyone",
@@ -231,7 +231,7 @@ const Home = () => {
                  restDelta: 0.001
                }
              }}
-            className="pt-0 box m-auto max-[640px]:w-1/2">
+            className="pt-0 box  max-[640px]:w-1/2">
          
             <Image
               className="transition-shadow  "
