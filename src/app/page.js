@@ -231,7 +231,7 @@ const Home = () => {
                  restDelta: 0.001
                }
              }}
-            className="pt-0 box m-auto">
+            className="pt-0 box m-auto max-[640px]:w-1/2">
          
             <Image
               className="transition-shadow  "
