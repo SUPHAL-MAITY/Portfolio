@@ -29,7 +29,7 @@ const MyCarousel = () => {
                         </div>
                         
                     </div>
-                    <Link href=""> <div > <Image className="hover:opacity-10"  src={project1} style={{  padding: '20px',borderRadius:'10%',height:"70vh",width:"70vw"}} alt="Image 1" /> </div> </Link>
+                    <Link href="https://youtube.com/shorts/VaHXI9v23Fo?feature=share"> <div > <Image className="hover:opacity-10 h-9/12  w-9/12"  src={project1} style={{  padding: '20px',borderRadius:'10%'}} alt="Image 1" /> </div> </Link>
                     
                 </div>   
             </div>
@@ -48,7 +48,7 @@ const MyCarousel = () => {
                         </div>
                         
                     </div>
-                    <Link href="https://youtu.be/DcpZBN9kn_c"> <div > <Image className="hover:opacity-10"  src={project2} style={{  padding: '20px',borderRadius:'10%',height:"70vh",width:"70vw"}} alt="Image 1" /> </div> </Link>
+                    <Link href="https://youtu.be/DcpZBN9kn_c"> <div > <Image className="hover:opacity-10 h-9/12  w-9/12 "  src={project2} style={{  padding: '20px',borderRadius:'10%'}} alt="Image 1" /> </div> </Link>
                     
                 </div>
 
@@ -66,7 +66,7 @@ const MyCarousel = () => {
                         </div>
                         
                     </div>
-                    <Link href=""> <div > <Image className="hover:opacity-10"  src={project3} style={{  padding: '20px',borderRadius:'10%',height:"70vh",width:"70vw"}} alt="Image 1" /> </div> </Link>
+                    <Link href=""> <div > <Image className="hover:opacity-10 h-9/12  w-9/12"  src={project3} style={{  padding: '20px',borderRadius:'10%'}} alt="Image 1" /> </div> </Link>
                     
                 </div>
 
@@ -84,7 +84,7 @@ const MyCarousel = () => {
                         </div>
                         
                     </div>
-                    <Link href=""> <div > <Image className="hover:opacity-10"  src={project4} style={{  padding: '20px',borderRadius:'10%',height:"70vh",width:"70vw"}} alt="Image 1" /> </div> </Link>
+                    <Link href=""> <div > <Image className="hover:opacity-10 h-9/12  w-9/12"  src={project4} style={{  padding: '20px',borderRadius:'10%'}} alt="Image 1" /> </div> </Link>
                     
                 </div>
 
@@ -103,7 +103,7 @@ const MyCarousel = () => {
                         </div>
                         
                     </div>
-                    <Link href=""> <div > <Image className="hover:opacity-10"  src={project5} style={{  padding: '20px',borderRadius:'10%',height:"70vh",width:"70vw"}} alt="Image 1" /> </div> </Link>
+                    <Link href=""> <div > <Image className="hover:opacity-10 h-9/12  w-9/12"  src={project5} style={{  padding: '20px',borderRadius:'10%'}} alt="Image 1" /> </div> </Link>
                     
                 </div>
 
@@ -120,13 +120,13 @@ const MyCarousel = () => {
                         </div>
                         
                     </div>
-                    <Link href=""> <div > <Image className="hover:opacity-10"  src={project6} style={{  padding: '20px',borderRadius:'10%',height:"70vh",width:"70vw"}} alt="Image 1" /> </div> </Link>
+                    <Link href=""> <div > <Image className="hover:opacity-10 h-9/12  w-9/12"  src={project6} style={{  padding: '20px',borderRadius:'10%'}} alt="Image 1" /> </div> </Link>
                     
                 </div>
 
 
 
-                <div className="max-[640px]:flex flex-col grid grid-cols-2">
+                <div className=" max-[640px]:flex flex-col h-full grid grid-cols-2">
                     <div className=" grid grid-rows-2"> 
                         <h1 className='pt-20 font-bold font-serif text-9xl  '>07</h1>
                         
@@ -138,7 +138,7 @@ const MyCarousel = () => {
                         </div>
                         
                     </div>
-                    <Link href=""> <div > <Image className="hover:opacity-10"  src={project7} style={{  padding: '20px',borderRadius:'10%',height:"70vh",width:"70vw"}} alt="Image 1" /> </div> </Link>
+                    <Link href=""> <div > <Image className="hover:opacity-10 h-9/12  w-9/12"  src={project7} style={{  padding: '20px',borderRadius:'10%'}} alt="Image 1" /> </div> </Link>
                     
                 </div>
 
