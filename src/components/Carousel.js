@@ -17,7 +17,7 @@ const MyCarousel = () => {
 
 <Carousel >
             <div >
-                <div className="grid grid-cols-2">
+                <div className="max-[640px]:flex flex-col grid grid-cols-2">
                     <div className="grid grid-rows-2"> 
                         <h1 className='pt-20 font-bold font-serif text-9xl  '>01</h1>
                         
@@ -36,8 +36,8 @@ const MyCarousel = () => {
 
 
 
-           <div className="grid grid-cols-2">
-                    <div className="grid grid-rows-2"> 
+           <div className="max-[640px]:flex flex-col grid grid-cols-2">
+                    <div className=" grid grid-rows-2"> 
                         <h1 className='pt-20 font-bold font-serif text-9xl  '>02</h1>
                         
                         <div className=''>
@@ -54,8 +54,8 @@ const MyCarousel = () => {
 
 
 
-                <div className="grid grid-cols-2">
-                    <div className="grid grid-rows-2"> 
+                <div className="max-[640px]:flex flex-col grid grid-cols-2">
+                    <div className="  grid grid-rows-2"> 
                         <h1 className='pt-20 font-bold font-serif text-9xl  '>03</h1>
                         
                         <div className=''>
@@ -72,8 +72,8 @@ const MyCarousel = () => {
 
 
 
-                <div className="grid grid-cols-2">
-                    <div className="grid grid-rows-2"> 
+                <div className="max-[640px]:flex flex-col grid grid-cols-2">
+                    <div className=" grid grid-rows-2"> 
                         <h1 className='pt-20 font-bold font-serif text-9xl  '>04</h1>
                         
                         <div className=''>
@@ -91,8 +91,8 @@ const MyCarousel = () => {
 
 
 
-                <div className="grid grid-cols-2">
-                    <div className="grid grid-rows-2"> 
+                <div className="max-[640px]:flex flex-col grid grid-cols-2">
+                    <div className="  grid grid-rows-2"> 
                         <h1 className='pt-20 font-bold font-serif text-9xl  '>05</h1>
                         
                         <div className=''>
@@ -108,8 +108,8 @@ const MyCarousel = () => {
                 </div>
 
 
-                <div className="grid grid-cols-2">
-                    <div className="grid grid-rows-2"> 
+                <div className="max-[640px]:flex flex-col grid grid-cols-2">
+                    <div className=" grid grid-rows-2"> 
                         <h1 className='pt-20 font-bold font-serif text-9xl  '>06</h1>
                         
                         <div className=''>
@@ -126,8 +126,8 @@ const MyCarousel = () => {
 
 
 
-                <div className="grid grid-cols-2">
-                    <div className="grid grid-rows-2"> 
+                <div className="max-[640px]:flex flex-col grid grid-cols-2">
+                    <div className=" grid grid-rows-2"> 
                         <h1 className='pt-20 font-bold font-serif text-9xl  '>07</h1>
                         
                         <div className=''>
