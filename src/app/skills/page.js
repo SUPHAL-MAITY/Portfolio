@@ -18,9 +18,9 @@ import next from "../../../public/next.jpg"
 const page = () => {
   return (
     <>
-      <div className="bg-slate-200  min-h-screen p-10 grid grid-cols-6">
+      <div className=" max-[640px]:flex flex-col    bg-slate-200  min-h-screen p-10 grid grid-cols-6">
 
-        <div class="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="relative mx-4 max-[640px]:w-1/2  mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={js}
             alt="profile-picture"
@@ -32,7 +32,7 @@ const page = () => {
 
 
 
-        <div class="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="max-[640px]:w-1/2   relative    mx-4    mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={react}
             alt="profile-picture"
@@ -40,7 +40,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class=" max-[640px]:w-1/2 relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={mongoDB}
             alt="profile-picture"
@@ -48,7 +48,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="max-[640px]:w-1/2  relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={node}
             alt="profile-picture"
@@ -56,7 +56,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="max-[640px]:w-1/2  relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={css}
             alt="profile-picture"
@@ -64,7 +64,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="max-[640px]:w-1/2  relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={tailwind}
             alt="profile-picture"
@@ -72,7 +72,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="max-[640px]:w-1/2  relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={python}
             alt="profile-picture"
@@ -80,7 +80,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="max-[640px]:w-1/2  relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={html}
             alt="profile-picture"
@@ -88,7 +88,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="max-[640px]:w-1/2  relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={github}
             alt="profile-picture"
@@ -96,7 +96,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="max-[640px]:w-1/2  relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={JEST}
             alt="profile-picture"
@@ -104,7 +104,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="max-[640px]:w-1/2 relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={CPP}
             alt="profile-picture"
@@ -112,7 +112,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="max-[640px]:w-1/2 relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={next}
             alt="profile-picture"
