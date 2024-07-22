@@ -96,7 +96,7 @@ const MyCarousel = () => {
                         <h1 className='pt-20 font-bold font-serif text-9xl  '>05</h1>
                         
                         <div className=''>
-                                <h3 className='font-serif p-2 text-5xl text-red-700'>Responsive Landing Page of Food Delivery Website</h3>
+                                <h3 className='font-serif p-2 text-5xl text-red-700'> Food Delivery Website</h3>
                                 <h3 className='text-3xl'><span className='font-bold'></span>  <span className=''>Html,CSS</span></h3>
                                 <h3 className='text-2xl pt-2 font-mono  hover:underline'><Link href="https://github.com/SUPHAL-MAITY/Landing-Page-of-food-delivery-website"><span className='font-bold text-slate-800'>GitHub </span> </Link></h3>
                                 <h3 className='text-2xl pt-1 font-mono  hover:underline'><Link href=""><span className='font-bold text-slate-800'>Linkedin </span> </Link></h3>
@@ -131,7 +131,7 @@ const MyCarousel = () => {
                         <h1 className='pt-20 font-bold font-serif text-9xl  '>07</h1>
                         
                         <div className=''>
-                                <h3 className='font-serif p-2 text-5xl text-red-700'>Responsive Landing Page of Travel Website</h3>
+                                <h3 className='font-serif p-2 text-5xl text-red-700'> Travel Website</h3>
                                 <h3 className='text-3xl'><span className='font-bold'></span>  <span className=''>HTML,CSS</span></h3>
                                 <h3 className='text-2xl pt-2 font-mono  hover:underline'><Link href="https://github.com/SUPHAL-MAITY/Landing-page"><span className='font-bold text-slate-800'>GitHub </span> </Link></h3>
                                 <h3 className='text-2xl pt-1 font-mono  hover:underline'><Link href=""><span className='font-bold text-slate-800'>Linkedin </span> </Link></h3>
