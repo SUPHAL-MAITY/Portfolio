@@ -10,6 +10,7 @@ import project4 from '../../public/gym_ui.png'
 import project5 from '../../public/food_app_ui.png'
 import project6 from '../../public/Expense_Tracker.png'
 import project7 from '../../public/Landing_page.png'
+import project8 from '../../public/auction1.png'
 
 const MyCarousel = () => {
     return (
@@ -20,6 +21,25 @@ const MyCarousel = () => {
                 <div className="max-[640px]:flex flex-col grid grid-cols-2">
                     <div className="grid grid-rows-2"> 
                         <h1 className='pt-20 font-bold font-serif text-9xl  '>01</h1>
+                        
+                        <div className=''>
+                                <h3 className='font-serif p-2 text-5xl text-red-700'>Auction App</h3>
+                                <h3 className='text-3xl'><span className='font-bold'></span>  <span className=''>React,MongoDb,Node js,Express</span></h3>
+                                <h3 className='text-2xl pt-2 font-mono  hover:underline'><Link href="https://www.linkedin.com/feed/update/urn:li:activity:7231617064312913920/"><span className='font-bold text-slate-800'>Linkedin</span> </Link></h3>
+                                <h3 className='text-2xl pt-1 font-mono  hover:underline'><Link href="https://www.auctionarena.live/"><span className='font-bold text-slate-800'>website </span> </Link></h3>
+                        </div>
+                        
+                    </div>
+                    <Link href=" "> <div > <Image className="hover:opacity-10 h-9/12  w-9/12"  src={project8} style={{  padding: '20px',borderRadius:'10%',height:"400px"}} alt="Image 1" /> </div> </Link>
+                    
+                </div>   
+            </div>
+
+
+            <div >
+                <div className="max-[640px]:flex flex-col grid grid-cols-2">
+                    <div className="grid grid-rows-2"> 
+                        <h1 className='pt-20 font-bold font-serif text-9xl  '>02</h1>
                         
                         <div className=''>
                                 <h3 className='font-serif p-2 text-5xl text-red-700'>Food App</h3>
@@ -38,7 +58,7 @@ const MyCarousel = () => {
 
            <div className="max-[640px]:flex flex-col grid grid-cols-2">
                     <div className=" grid grid-rows-2"> 
-                        <h1 className='pt-20 font-bold font-serif text-9xl  '>02</h1>
+                        <h1 className='pt-20 font-bold font-serif text-9xl  '>03</h1>
                         
                         <div className=''>
                                 <h3 className='font-serif p-2 text-5xl text-red-700'>E-Com App</h3>
@@ -56,7 +76,7 @@ const MyCarousel = () => {
 
                 <div className="max-[640px]:flex flex-col grid grid-cols-2">
                     <div className="  grid grid-rows-2"> 
-                        <h1 className='pt-20 font-bold font-serif text-9xl  '>03</h1>
+                        <h1 className='pt-20 font-bold font-serif text-9xl  '>04</h1>
                         
                         <div className=''>
                                 <h3 className='font-serif p-2 text-5xl text-red-700'>News App</h3>
@@ -74,7 +94,7 @@ const MyCarousel = () => {
 
                 <div className="max-[640px]:flex flex-col grid grid-cols-2">
                     <div className=" grid grid-rows-2"> 
-                        <h1 className='pt-20 font-bold font-serif text-9xl  '>04</h1>
+                        <h1 className='pt-20 font-bold font-serif text-9xl  '>05</h1>
                         
                         <div className=''>
                                 <h3 className='font-serif p-2 text-5xl text-red-700'>Landing Page of Gym Website</h3>
@@ -93,7 +113,7 @@ const MyCarousel = () => {
 
                 <div className="max-[640px]:flex flex-col grid grid-cols-2">
                     <div className="  grid grid-rows-2"> 
-                        <h1 className='pt-20 font-bold font-serif text-9xl  '>05</h1>
+                        <h1 className='pt-20 font-bold font-serif text-9xl  '>06</h1>
                         
                         <div className=''>
                                 <h3 className='font-serif p-2 text-5xl text-red-700'> Food Delivery Website</h3>
@@ -110,7 +130,7 @@ const MyCarousel = () => {
 
                 <div className="max-[640px]:flex flex-col grid grid-cols-2">
                     <div className=" grid grid-rows-2"> 
-                        <h1 className='pt-20 font-bold font-serif text-9xl  '>06</h1>
+                        <h1 className='pt-20 font-bold font-serif text-9xl  '>07</h1>
                         
                         <div className=''>
                                 <h3 className='font-serif p-2 text-5xl text-red-700'>Expense Tracker</h3>
@@ -128,7 +148,7 @@ const MyCarousel = () => {
 
                 <div className=" max-[640px]:flex flex-col h-full grid grid-cols-2">
                     <div className=" grid grid-rows-2"> 
-                        <h1 className='pt-20 font-bold font-serif text-9xl  '>07</h1>
+                        <h1 className='pt-20 font-bold font-serif text-9xl  '>08</h1>
                         
                         <div className=''>
                                 <h3 className='font-serif p-2 text-5xl text-red-700'> Travel Website</h3>
