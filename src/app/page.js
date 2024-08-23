@@ -234,14 +234,14 @@ const Home = () => {
             className="pt-0 box max-[640px]:pl-10 max-[640px]:ml-10  max-[640px]:w-2/3">
          
             <Image
-              className="transition-shadow max-[500px]:h-2/3 "
+              className="transition-shadow  "
              
               src={profilePic}
               alt="Picture of the author"
               style={{
                 width: "65%",
                 height: "60%",
-                borderRadius: "60%",
+                borderRadius: "50%",
               }}
             />
           
