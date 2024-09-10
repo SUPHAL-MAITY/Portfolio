@@ -51,7 +51,7 @@ const Contact = () => {
         </div>
 
         <div className="flex justify-center p-2 font-serif">
-          <a href="/Suphal_Maity.pdf" download="suphal___maity" >
+          <a href="/suphal___maity.pdf" download="suphal___maity" >
           <button
             type="button"
             className="max-w-2xl  inline-block rounded-2xl bg-neutral-800 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-neutral-50 shadow-2xl transition duration-150 ease-in-out hover:bg-neutral-700 hover:shadow-dark-2 focus:bg-neutral-700 focus:shadow-dark-2 focus:outline-none focus:ring-0 active:bg-neutral-900 active:shadow-dark-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
