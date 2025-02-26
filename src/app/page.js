@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <div className="flex  bg-black  h-[100vh] w-full p-4">
-        <div className="    b-4 pl-4 text-3xl font-serif font-bold   rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <div className="    b-4 pl-4 text-3xl font-serif font-bold   rounded-lg shadow sm:p-8 ">
           <ConsoleText
             words={[
               "Hello Everyone !",
