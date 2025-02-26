@@ -18,7 +18,7 @@ import next from "../../../public/nextjs.png"
 const page = () => {
   return (
     <>
-      <div className=" flex flex-col items-center h-[100vh]  bg-black  min-h-screen  sm:grid sm:grid-cols-6 gap-4 p-10">
+      <div className=" flex flex-col items-center   bg-black  min-h-screen  sm:grid sm:grid-cols-6 gap-4 p-10">
 
         <div class=" mx-4 w-1/2 sm:w-auto mt-4   overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
