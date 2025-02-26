@@ -3,24 +3,24 @@
 import React, { createContext } from "react";
 import Image from "next/image";
 import js from "../../../public/js.png"
-import react from "../../../public/react.jpg"
+import react from "../../../public/react.png"
 import mongoDB from "../../../public/mongoDB.png"
 import node from "../../../public/node.png"
-import css from "../../../public/css.jpg"
-import tailwind from "../../../public/tailwind.jpg"
-import python from "../../../public/python.jpg"
-import html from "../../../public/html.jpg"
-import github from "../../../public/github.jpg"
-import JEST from "../../../public/jest.jpg"
-import CPP from "../../../public/cpp.jpg"
-import next from "../../../public/next.jpg"
+import css from "../../../public/css.png"
+import tailwind from "../../../public/tail.png"
+import python from "../../../public/py.png"
+import html from "../../../public/html.png"
+import github from "../../../public/git.png"
+import JEST from "../../../public/jest.png"
+import CPP from "../../../public/cpp.png"
+import next from "../../../public/nextjs.png"
 
 const page = () => {
   return (
     <>
-      <div className=" max-[640px]:flex flex-col    bg-slate-200  min-h-screen p-10 grid grid-cols-6">
+      <div className=" flex flex-col items-center h-[100vh]  bg-black  min-h-screen  sm:grid sm:grid-cols-6 gap-4 p-10">
 
-        <div class="relative mx-4 max-[640px]:w-1/2  mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class=" mx-4 w-1/2 sm:w-auto mt-4   overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={js}
             alt="profile-picture"
@@ -32,7 +32,7 @@ const page = () => {
 
 
 
-        <div class="max-[640px]:w-1/2   relative    mx-4    mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto   mx-4  mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={react}
             alt="profile-picture"
@@ -40,7 +40,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class=" max-[640px]:w-1/2 relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class=" w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={mongoDB}
             alt="profile-picture"
@@ -48,7 +48,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="max-[640px]:w-1/2  relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={node}
             alt="profile-picture"
@@ -56,7 +56,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="max-[640px]:w-1/2  relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={css}
             alt="profile-picture"
@@ -64,7 +64,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="max-[640px]:w-1/2  relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={tailwind}
             alt="profile-picture"
@@ -72,7 +72,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="max-[640px]:w-1/2  relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={python}
             alt="profile-picture"
@@ -80,7 +80,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="max-[640px]:w-1/2  relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={html}
             alt="profile-picture"
@@ -88,7 +88,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="max-[640px]:w-1/2  relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={github}
             alt="profile-picture"
@@ -96,7 +96,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="max-[640px]:w-1/2  relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={JEST}
             alt="profile-picture"
@@ -104,7 +104,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="max-[640px]:w-1/2 relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={CPP}
             alt="profile-picture"
@@ -112,7 +112,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="max-[640px]:w-1/2 relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto  mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={next}
             alt="profile-picture"
