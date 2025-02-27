@@ -14,6 +14,8 @@ import github from "../../../public/git.png"
 import JEST from "../../../public/jest.png"
 import CPP from "../../../public/cpp.png"
 import next from "../../../public/nextjs.png"
+import ws from  "../../../public/ws.png"
+import ts from  "../../../public/ts.png"
 
 const page = () => {
   return (
@@ -40,9 +42,9 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class=" w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto  mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
-            src={mongoDB}
+            src={next}
             alt="profile-picture"
             width={300}
             height={300}
@@ -56,6 +58,41 @@ const page = () => {
             height={300}
           />
         </div>
+        <div class=" w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+          <Image
+            src={mongoDB}
+            alt="profile-picture"
+            width={300}
+            height={300}
+          />
+        </div>
+        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+          <Image
+            src={python}
+            alt="profile-picture"
+            width={300}
+            height={300}
+          />
+        </div>
+
+        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+          <Image
+            src={CPP}
+            alt="profile-picture"
+            width={300}
+            height={300}
+          />
+        </div>
+
+        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+          <Image
+            src={html}
+            alt="profile-picture"
+            width={300}
+            height={300}
+          />
+        </div>
+      
         <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={css}
@@ -72,22 +109,8 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
-          <Image
-            src={python}
-            alt="profile-picture"
-            width={300}
-            height={300}
-          />
-        </div>
-        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
-          <Image
-            src={html}
-            alt="profile-picture"
-            width={300}
-            height={300}
-          />
-        </div>
+     
+      
         <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={github}
@@ -106,20 +129,22 @@ const page = () => {
         </div>
         <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
-            src={CPP}
+            src={ws}
             alt="profile-picture"
             width={300}
             height={300}
           />
         </div>
-        <div class="w-1/2 sm:w-auto  mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
-            src={next}
+            src={ts}
             alt="profile-picture"
             width={300}
             height={300}
           />
         </div>
+      
+      
 
        
       </div>
