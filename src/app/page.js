@@ -11,20 +11,39 @@ import Link from "next/link";
 const Home = () => {
   return (
     <>
-      <div className="flex  bg-black  h-[100vh] w-full p-4">
-        <div className="    b-4 pl-4 text-3xl font-serif font-bold   rounded-lg shadow sm:p-8 ">
+      <div className="flex  justify-center  bg-[#251c31]  h-[100vh] w-full p-4 ">
+
+        <div className=" flex flex-col   items-center    b-4 pl-4 text-3xl font-serif font-bold   rounded-lg shadow sm:p-8 ">
+          
+          
+       
+
+
+
+          <div className="flex justify-center items-center   relative ">
+
+            <img src="./Me.png" alt="Top" className="z-10" />
+            <img src="./Gradient.png" alt="Bottom" className="absolute z-0  left-0  " />
+          </div>
+
+
+          <div className="mt-4">
+
           <ConsoleText
             words={[
-              "Hello Everyone !",
+              "Hello Everyone ! I am  SUPHAL .",
               "Having  2+ years experience in Web Development.",
-              "I am  SUPHAL . A FULL  STACK Developer, Specialised in MERN Stack.",
-              
-              
+              " A FULL  STACK Developer ( MERN ) ",             
               
             ]}
             targetId="text"
             colors={["#36ec36", "yellow", "white"]}
           />
+
+
+          </div>
+
+ 
 
           <div className="bg-transparent fixed bottom-0 left-0 w-full h-auto py-8 flex items-center justify-center gap-4 flex-wrap">
             

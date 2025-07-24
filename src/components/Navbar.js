@@ -1,11 +1,12 @@
-"use client"
+"use client";
 
 import Link from "next/link";
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
+
 const Navbar = () => {
-    const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(false);
 
   const links = [
     {
@@ -31,13 +32,8 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center z-10 w-full h-20 px-4 text-white bg-black fixed nav">
-      <div>
-
-      
-
-
-        {/* <h1 className="text-5xl font-signature ml-2"><a className="link-underline hover:transition ease-in-out delay-150 hover:underline hover:decoration-solid" href="">Logo</a></h1> */}
+    <div className="flex justify-between items-center z-10 w-full h-20 px-4 text-white bg-[#1A0B2E] fixed nav">
+      <div>  
         <h1 className="text-3xl font-serif  ml-2">
           <a
             className="link-underline link-underline-black"
@@ -45,11 +41,8 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-           Dev.
-           
+            Dev.
           </a>
-         
-
         </h1>
       </div>
 
