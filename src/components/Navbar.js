@@ -4,7 +4,6 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -32,8 +31,8 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center z-10 w-full h-20 px-4 text-white bg-[#1A0B2E] fixed nav">
-      <div>  
+    <div className="flex justify-between items-center z-50 w-full h-20 px-4 text-white bg-[#1A0B2E] fixed nav">
+      <div>
         <h1 className="text-3xl font-serif  ml-2">
           <a
             className="link-underline link-underline-black"
@@ -59,7 +58,7 @@ const Navbar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-50 text-gray-500 md:hidden"
+        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
