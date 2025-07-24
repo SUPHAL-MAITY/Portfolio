@@ -22,7 +22,7 @@ const Home = () => {
 
           <div className="flex justify-center items-center   relative ">
 
-            <img src="./Me.png" alt="Top" className="z-5" />
+            <img src="./Me.png" alt="Top" className="z-10" />
             <img src="./Gradient.png" alt="Bottom" className="absolute z-0  left-0  " />
           </div>
 
