@@ -11,7 +11,7 @@ import Link from "next/link";
 const Home = () => {
   return (
     <>
-      <div className="flex  justify-center  bg-[#251c31]  h-[100vh] w-full p-4 ">
+      <div className="flex  justify-center  bg-[#251c31]  h-[100vh] w-full p-4 fixed top-[80px] ">
 
         <div className=" flex flex-col   items-center    b-4 pl-4 text-3xl font-serif font-bold   rounded-lg shadow sm:p-8 ">
           
@@ -31,9 +31,9 @@ const Home = () => {
 
           <ConsoleText
             words={[
-              "Hello Everyone ! I am  SUPHAL .",
+              "Hello Everyone ! I am  Suphal .",
               "Having  2+ years experience in Web Development.",
-              " A FULL  STACK Developer ( MERN ) ",             
+              " A Full  Stack Developer ( MERN ) ",             
               
             ]}
             targetId="text"

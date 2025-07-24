@@ -17,12 +17,20 @@ import next from "../../../public/nextjs.png"
 import ws from  "../../../public/ws.png"
 import ts from  "../../../public/ts.png"
 
+
+
+// bg-linear-to-r from-[#130428] from-7% via-[#251043] via-34% to-[#38126D] to-57% 
+// bg-[#251c31]
 const page = () => {
   return (
     <>
-      <div className=" flex flex-col items-center   bg-black  min-h-screen  sm:grid sm:grid-cols-6 gap-4 p-10">
+      <div className="relative bg-[#251c31]  flex flex-col items-center fixed   sm:grid sm:grid-cols-3  md:grid-cols-5  lg:grid-cols-6  2xl:grid-cols-8  gap-4 p-10">
+        
+        <div className="absolute left-0 top-0  z-0 w-[40vw] h-full">
+          <img src="./Gradient1.png" alt="" />
+        </div>
 
-        <div class=" mx-4 w-1/2 sm:w-auto mt-4   overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class=" mx-4 w-1/2 sm:w-auto mt-4 z-10  overflow-hidden text-gray-700  bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={js}
             alt="profile-picture"
@@ -34,7 +42,7 @@ const page = () => {
 
 
 
-        <div class="w-1/2 sm:w-auto   mx-4  mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto z-10  mx-4  mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={react}
             alt="profile-picture"
@@ -42,7 +50,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="w-1/2 sm:w-auto  mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto z-10 mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={next}
             alt="profile-picture"
@@ -50,7 +58,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto z-10 mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={node}
             alt="profile-picture"
@@ -58,7 +66,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class=" w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class=" w-1/2 sm:w-auto z-10 mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={mongoDB}
             alt="profile-picture"
@@ -66,7 +74,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto z-10 mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={python}
             alt="profile-picture"
@@ -75,7 +83,7 @@ const page = () => {
           />
         </div>
 
-        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto z-10 mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={CPP}
             alt="profile-picture"
@@ -84,7 +92,7 @@ const page = () => {
           />
         </div>
 
-        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto mx-4 z-10 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={html}
             alt="profile-picture"
@@ -93,7 +101,7 @@ const page = () => {
           />
         </div>
       
-        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto mx-4 z-10 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={css}
             alt="profile-picture"
@@ -101,7 +109,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto mx-4 z-10  mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={tailwind}
             alt="profile-picture"
@@ -111,7 +119,7 @@ const page = () => {
         </div>
      
       
-        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto mx-4 z-10 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={github}
             alt="profile-picture"
@@ -119,7 +127,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto mx-4 z-10 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={JEST}
             alt="profile-picture"
@@ -127,7 +135,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto mx-4 z-10 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={ws}
             alt="profile-picture"
@@ -135,7 +143,7 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="w-1/2 sm:w-auto mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+        <div class="w-1/2 sm:w-auto mx-4 z-10 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={ts}
             alt="profile-picture"
@@ -144,7 +152,9 @@ const page = () => {
           />
         </div>
       
-      
+        <div className="absolute right-0 top-0 z-0  w-[40vw] h-full">
+          <img src="./Gradient1.png" alt="" />
+        </div>
 
        
       </div>
