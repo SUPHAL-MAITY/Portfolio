@@ -26,7 +26,7 @@ const page = () => {
     <>
       <div className="relative bg-[#251c31]  flex flex-col items-center fixed   sm:grid sm:grid-cols-3  md:grid-cols-5  lg:grid-cols-6  2xl:grid-cols-8  gap-4 p-10">
         
-        <div className="absolute left-0 top-0  z-0 w-[40vw] h-full">
+        <div className="absolute left-0 top-0  z-0  w-[100vw]  md:w-[40vw] h-full">
           <img src="./Gradient1.png" alt="" />
         </div>
 
@@ -152,7 +152,7 @@ const page = () => {
           />
         </div>
       
-        <div className="absolute right-0 top-0 z-0  w-[40vw] h-full">
+        <div className="absolute  right-0  top-0 z-0   w-[100vw]  md:w-[40vw] h-full">
           <img src="./Gradient1.png" alt="" />
         </div>
 
