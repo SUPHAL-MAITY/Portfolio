@@ -11,7 +11,7 @@ import tailwind from "../../../public/tail.png"
 import python from "../../../public/py.png"
 import html from "../../../public/html.png"
 import github from "../../../public/git.png"
-import JEST from "../../../public/jest.png"
+
 import CPP from "../../../public/cpp.png"
 import next from "../../../public/nextjs.png"
 import ws from  "../../../public/ws.png"
@@ -127,14 +127,9 @@ const page = () => {
             height={300}
           />
         </div>
-        <div class="w-1/2 sm:w-auto mx-4 z-10 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
-          <Image
-            src={JEST}
-            alt="profile-picture"
-            width={300}
-            height={300}
-          />
-        </div>
+
+    
+
         <div class="w-1/2 sm:w-auto mx-4 z-10 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={ws}
