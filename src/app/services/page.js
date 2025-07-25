@@ -7,7 +7,7 @@ const Services = () => {
     <div className="p-4 flex flex-wrap  font-serif   bg-[#251c31] justify-center  ">
      
 
-      <div className="w-[344px] flex justify-center bg-white rounded-lg drop-shadow-[0_0_6px_rgba(255,255,255,0.8)] mx-2 mt-2">
+      <div className="w-[344px] flex justify-center bg-white rounded-lg drop-shadow-[0_0_6px_rgba(255,255,255,0.8)] mx-2 my-4">
         <div className="  relative  text-white z-10  flex flex-col   bg-[#38126D] shadow-lg bg-clip-border rounded-xl w-[340px]  ">
           <div className="relative h-56 mx-4 mt-6 flex justify-center items-center text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
             <Image
@@ -43,7 +43,7 @@ const Services = () => {
 
       {/* https://ddbconsultants.ca/wp-content/uploads/2021/12/how-to-automate-your-business-1536x1024.jpg */}
 
-      <div className="w-[344px] flex justify-center bg-white rounded-lg drop-shadow-[0_0_6px_rgba(255,255,255,0.8)]  mx-2 mt-2">
+      <div className="w-[344px] flex justify-center bg-white rounded-lg drop-shadow-[0_0_6px_rgba(255,255,255,0.8)]  mx-2 my-4">
         <div className="  relative  text-white z-10  flex flex-col   bg-[#38126D] shadow-lg bg-clip-border rounded-xl w-[340px]  ">
           <div className="relative h-56 mx-4 mt-6 flex justify-center items-center text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
             <Image
@@ -77,7 +77,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="w-[344px] flex justify-center bg-white rounded-lg drop-shadow-[0_0_6px_rgba(255,255,255,0.8)] mx-2 mt-2">
+      <div className="w-[344px] flex justify-center bg-white rounded-lg drop-shadow-[0_0_6px_rgba(255,255,255,0.8)] mx-2 my-4">
         <div className="  relative  text-white z-10  flex flex-col   bg-[#38126D] shadow-lg bg-clip-border rounded-xl w-[340px]  ">
           <div className="relative h-56 mx-4 mt-6 flex justify-center items-center text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
             <Image
@@ -111,6 +111,7 @@ const Services = () => {
           </div>
         </div>
       </div>
+
     </div>
   );
 };
