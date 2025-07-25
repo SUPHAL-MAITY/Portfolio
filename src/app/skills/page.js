@@ -17,6 +17,11 @@ import next from "../../../public/nextjs.png"
 import ws from  "../../../public/ws.png"
 import ts from  "../../../public/ts.png"
 
+import docker from  "../../../public/docker.png"
+import kuber from  "../../../public/kuber.png"
+import aws from  "../../../public/aws.png"
+import postg from  "../../../public/postg.png"
+import blender  from  "../../../public/blender.png"
 
 
 // bg-linear-to-r from-[#130428] from-7% via-[#251043] via-34% to-[#38126D] to-57% 
@@ -74,6 +79,17 @@ const page = () => {
             height={300}
           />
         </div>
+
+            <div class=" w-1/2 sm:w-auto z-10 mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+          <Image
+            src={postg}
+            alt="profile-picture"
+            width={300}
+            height={300}
+          />
+        </div>
+
+
         <div class="w-1/2 sm:w-auto z-10 mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={python}
@@ -141,6 +157,46 @@ const page = () => {
         <div class="w-1/2 sm:w-auto mx-4 z-10 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
           <Image
             src={ts}
+            alt="profile-picture"
+            width={300}
+            height={300}
+          />
+        </div>
+
+
+            <div class=" w-1/2 sm:w-auto z-10 mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+          <Image
+            src={docker}
+            alt="profile-picture"
+            width={300}
+            height={300}
+          />
+        </div>
+
+
+            <div class=" w-1/2 sm:w-auto z-10 mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+          <Image
+            src={kuber}
+            alt="profile-picture"
+            width={300}
+            height={300}
+          />
+        </div>
+
+
+            <div class=" w-1/2 sm:w-auto z-10 mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+          <Image
+            src={aws}
+            alt="profile-picture"
+            width={300}
+            height={300}
+          />
+        </div>
+
+
+            <div class=" w-1/2 sm:w-auto z-10 mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-40 ">
+          <Image
+            src={blender}
             alt="profile-picture"
             width={300}
             height={300}

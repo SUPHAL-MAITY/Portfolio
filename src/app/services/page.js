@@ -27,10 +27,7 @@ const Services = () => {
               Frontend Development
             </h5>
             <p className="block   text-base antialiased font-light leading-relaxed text-inherit">
-              Transform your online presence with expert web development
-              services. Specializing in modern, responsive designs using MERN
-              stack and Tailwind CSS. Let us create a powerful, user-friendly
-              website for your business.
+              I specialize in building clean, responsive, and user-friendly frontend interfaces using modern technologies like React, Tailwind CSS, and JavaScript. Whether you need a sleek landing page or a dynamic web app, I can turn your ideas or designs into fast, scalable, and interactive UIs
             </p>
           </div>
           <div className="p-6 pt-0  flex justify-center">
@@ -63,10 +60,7 @@ const Services = () => {
                Backend Development
             </h5>
             <p className="block   text-base antialiased font-light leading-relaxed text-inherit">
-              Transform your online presence with expert web development
-              services. Specializing in modern, responsive designs using MERN
-              stack and Tailwind CSS. Let us create a powerful, user-friendly
-              website for your business.
+               I build secure, scalable, and efficient backend systems using Node.js, Express, and databases like MongoDB and PostgreSQL. From building RESTful APIs to implementing real-time features with WebSockets, I ensure your application runs smoothly behind the scenes.
             </p>
           </div>
           <div className="p-6 pt-0  flex justify-center">
@@ -98,10 +92,7 @@ const Services = () => {
               Devops
             </h5>
             <p className="block   text-base antialiased font-light leading-relaxed text-inherit">
-              Transform your online presence with expert web development
-              services. Specializing in modern, responsive designs using MERN
-              stack and Tailwind CSS. Let us create a powerful, user-friendly
-              website for your business.
+              I help streamline your development workflow by implementing efficient DevOps practices, including CI/CD pipelines, automated testing, and containerization. Using tools like Docker, GitHub Actions, and AWS, I ensure your applications are scalable, secure, and production-ready. 
             </p>
           </div>
           <div className="p-6 pt-0  flex justify-center">
@@ -130,13 +121,10 @@ const Services = () => {
 
           <div className="p-6">
             <h5 className="block mb-2  text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-              Frontend Development
+              3d Modelling
             </h5>
             <p className="block   text-base antialiased font-light leading-relaxed text-inherit">
-              Transform your online presence with expert web development
-              services. Specializing in modern, responsive designs using MERN
-              stack and Tailwind CSS. Let us create a powerful, user-friendly
-              website for your business.
+              I create high-quality 3D models for games, animations, product visualization, and educational content. Whether it’s stylized or realistic, I bring ideas to life with precision and creativity using Blender. From modeling to texturing and rendering, I ensure every detail aligns with your vision.
             </p>
           </div>
           <div className="p-6 pt-0  flex justify-center">

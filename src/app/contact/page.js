@@ -4,7 +4,7 @@ import Link from "next/link";
 const Contact = () => {
   return (
     <div className="  flex   justify-center bg-[#251c31] h-[100vh]">
-      <div className="w-[344px] h-[380px]   drop-shadow-[0_0_6px_rgba(255,255,255,0.8)]  ">
+      <div className="w-[344px] h-[380px] mt-4  drop-shadow-[0_0_6px_rgba(255,255,255,0.8)]  ">
         <div className="bg-slate-300  h-[380px]   w-[340px] shadow-lg rounded-lg ">
           <div className="px-4 py-5 sm:px-6">
             <p className=" text-center font-bold max-w-2xl text-lg text-blue-500">
