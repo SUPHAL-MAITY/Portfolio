@@ -30,7 +30,6 @@ const Navbar = () => {
     },
   ];
 
-
   // bg-[#1A0B2E]
   return (
     <div className="flex justify-between items-center z-50 bg-[#1A0B2E] w-full h-[80px] px-4 text-white  fixed nav">

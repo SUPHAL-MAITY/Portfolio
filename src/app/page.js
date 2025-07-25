@@ -1,9 +1,7 @@
-
 "use client";
 
 import React from "react";
 import Image from "next/image";
-
 
 import ConsoleText from "@/components/TextEffect";
 import Link from "next/link";
@@ -12,60 +10,46 @@ const Home = () => {
   return (
     <>
       <div className="flex  justify-center  bg-[#251c31]  h-[100vh] w-full p-4 fixed top-[80px] ">
-
         <div className=" flex flex-col   items-center    b-4 pl-4 text-3xl font-serif font-bold   rounded-lg shadow sm:p-8 ">
-          
-          
-       
-
-
-
           <div className="flex justify-center items-center   relative ">
-
             <img src="./Me.png" alt="Top" className="z-10" />
-            <img src="./Gradient.png" alt="Bottom" className="absolute z-0  left-0  " />
+            <img
+              src="./Gradient.png"
+              alt="Bottom"
+              className="absolute z-0  left-0  "
+            />
           </div>
-
 
           <div className="mt-4">
-
-          <ConsoleText
-            words={[
-              "Hello Everyone ! I am  Suphal .",
-              "Having  2+ years experience in Web Development.",
-              " A Full  Stack Developer ( MERN ) ",             
-              
-            ]}
-            targetId="text"
-            colors={["#36ec36", "yellow", "white"]}
-          />
-
-
+            <ConsoleText
+              words={[
+                "Hello Everyone ! I am  Suphal .",
+                "Having  2+ years experience in Web Development.",
+                " A Full  Stack Developer ( MERN ) ",
+              ]}
+              targetId="text"
+              colors={["#36ec36", "yellow", "white"]}
+            />
           </div>
 
- 
-
           <div className="bg-transparent fixed bottom-0 left-0 w-full h-auto py-8 flex items-center justify-center gap-4 flex-wrap">
-            
             {/* Twitter */}
             <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
               <Link href="https://x.com/suphal_maity">
-              <svg
-                className="transition-all duration-300 group-hover:scale-110"
-                xmlns="http://www.w3.org/2000/svg"
-                width={28}
-                height={28}
-                viewBox="0 0 72 72"
-                fill="none"
-              >
-                <path
-                  d="M40.7568 32.1716L59.3704 11H54.9596L38.7974 29.383L25.8887 11H11L30.5205 38.7983L11 61H15.4111L32.4788 41.5869L46.1113 61H61L40.7557 32.1716H40.7568ZM34.7152 39.0433L32.7374 36.2752L17.0005 14.2492H23.7756L36.4755 32.0249L38.4533 34.7929L54.9617 57.8986H48.1865L34.7152 39.0443V39.0433Z"
-                  fill="black"
-                />
-              </svg>
-              
+                <svg
+                  className="transition-all duration-300 group-hover:scale-110"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={28}
+                  height={28}
+                  viewBox="0 0 72 72"
+                  fill="none"
+                >
+                  <path
+                    d="M40.7568 32.1716L59.3704 11H54.9596L38.7974 29.383L25.8887 11H11L30.5205 38.7983L11 61H15.4111L32.4788 41.5869L46.1113 61H61L40.7557 32.1716H40.7568ZM34.7152 39.0433L32.7374 36.2752L17.0005 14.2492H23.7756L36.4755 32.0249L38.4533 34.7929L54.9617 57.8986H48.1865L34.7152 39.0443V39.0433Z"
+                    fill="black"
+                  />
+                </svg>
               </Link>
-             
             </button>
 
             {/* whats app */}
@@ -95,72 +79,59 @@ const Home = () => {
             {/* linkedin */}
 
             <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
-              
               <Link href="http://www.linkedin.com/in/suphal-maity-">
-
-              <svg
-                className="rounded-md transition-all duration-300 group-hover:scale-110"
-                xmlns="http://www.w3.org/2000/svg"
-                width={28}
-                height={28}
-                viewBox="0 0 72 72"
-                fill="none"
-              >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M14.6975 11C12.6561 11 11 12.6057 11 14.5838V57.4474C11 59.4257 12.6563 61.03 14.6975 61.03H57.3325C59.3747 61.03 61.03 59.4255 61.03 57.4468V14.5838C61.03 12.6057 59.3747 11 57.3325 11H14.6975ZM26.2032 30.345V52.8686H18.7167V30.345H26.2032ZM26.6967 23.3793C26.6967 25.5407 25.0717 27.2703 22.4615 27.2703L22.4609 27.2701H22.4124C19.8998 27.2701 18.2754 25.5405 18.2754 23.3791C18.2754 21.1686 19.9489 19.4873 22.5111 19.4873C25.0717 19.4873 26.6478 21.1686 26.6967 23.3793ZM37.833 52.8686H30.3471L30.3469 52.8694C30.3469 52.8694 30.4452 32.4588 30.3475 30.3458H37.8336V33.5339C38.8288 31.9995 40.6098 29.8169 44.5808 29.8169C49.5062 29.8169 53.1991 33.0363 53.1991 39.9543V52.8686H45.7133V40.8204C45.7133 37.7922 44.6293 35.7269 41.921 35.7269C39.8524 35.7269 38.6206 37.1198 38.0796 38.4653C37.8819 38.9455 37.833 39.6195 37.833 40.2918V52.8686Z"
-                  fill="#006699"
-                />
-              </svg>
-
-
-
-              
+                <svg
+                  className="rounded-md transition-all duration-300 group-hover:scale-110"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={28}
+                  height={28}
+                  viewBox="0 0 72 72"
+                  fill="none"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M14.6975 11C12.6561 11 11 12.6057 11 14.5838V57.4474C11 59.4257 12.6563 61.03 14.6975 61.03H57.3325C59.3747 61.03 61.03 59.4255 61.03 57.4468V14.5838C61.03 12.6057 59.3747 11 57.3325 11H14.6975ZM26.2032 30.345V52.8686H18.7167V30.345H26.2032ZM26.6967 23.3793C26.6967 25.5407 25.0717 27.2703 22.4615 27.2703L22.4609 27.2701H22.4124C19.8998 27.2701 18.2754 25.5405 18.2754 23.3791C18.2754 21.1686 19.9489 19.4873 22.5111 19.4873C25.0717 19.4873 26.6478 21.1686 26.6967 23.3793ZM37.833 52.8686H30.3471L30.3469 52.8694C30.3469 52.8694 30.4452 32.4588 30.3475 30.3458H37.8336V33.5339C38.8288 31.9995 40.6098 29.8169 44.5808 29.8169C49.5062 29.8169 53.1991 33.0363 53.1991 39.9543V52.8686H45.7133V40.8204C45.7133 37.7922 44.6293 35.7269 41.921 35.7269C39.8524 35.7269 38.6206 37.1198 38.0796 38.4653C37.8819 38.9455 37.833 39.6195 37.833 40.2918V52.8686Z"
+                    fill="#006699"
+                  />
+                </svg>
               </Link>
-              
             </button>
-
-            
 
             {/* Gmail */}
             <Link href="mailto:suphalmaity730@gmail.com">
-
-            <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
-              <svg
-                className="rounded-md transition-all duration-300 group-hover:scale-110"
-                width={28}
-                height={28}
-                viewBox="0 0 72 72"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M13.0065 56.1236H21.4893V35.5227L9.37109 26.4341V52.4881C9.37109 54.4997 11.001 56.1236 13.0065 56.1236Z"
-                  fill="#4285F4"
-                />
-                <path
-                  d="M50.5732 56.1236H59.056C61.0676 56.1236 62.6914 54.4937 62.6914 52.4881V26.4341L50.5732 35.5227"
-                  fill="#34A853"
-                />
-                <path
-                  d="M50.5732 19.7693V35.5229L62.6914 26.4343V21.587C62.6914 17.0912 57.5594 14.5282 53.9663 17.2245"
-                  fill="#FBBC04"
-                />
-                <path
-                  d="M21.4893 35.5227V19.769L36.0311 30.6754L50.5729 19.769V35.5227L36.0311 46.429"
-                  fill="#EA4335"
-                />
-                <path
-                  d="M9.37109 21.587V26.4343L21.4893 35.5229V19.7693L18.0962 17.2245C14.4971 14.5282 9.37109 17.0912 9.37109 21.587Z"
-                  fill="#C5221F"
-                />
-              </svg>
-            </button>
-            
+              <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
+                <svg
+                  className="rounded-md transition-all duration-300 group-hover:scale-110"
+                  width={28}
+                  height={28}
+                  viewBox="0 0 72 72"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.0065 56.1236H21.4893V35.5227L9.37109 26.4341V52.4881C9.37109 54.4997 11.001 56.1236 13.0065 56.1236Z"
+                    fill="#4285F4"
+                  />
+                  <path
+                    d="M50.5732 56.1236H59.056C61.0676 56.1236 62.6914 54.4937 62.6914 52.4881V26.4341L50.5732 35.5227"
+                    fill="#34A853"
+                  />
+                  <path
+                    d="M50.5732 19.7693V35.5229L62.6914 26.4343V21.587C62.6914 17.0912 57.5594 14.5282 53.9663 17.2245"
+                    fill="#FBBC04"
+                  />
+                  <path
+                    d="M21.4893 35.5227V19.769L36.0311 30.6754L50.5729 19.769V35.5227L36.0311 46.429"
+                    fill="#EA4335"
+                  />
+                  <path
+                    d="M9.37109 21.587V26.4343L21.4893 35.5229V19.7693L18.0962 17.2245C14.4971 14.5282 9.37109 17.0912 9.37109 21.587Z"
+                    fill="#C5221F"
+                  />
+                </svg>
+              </button>
             </Link>
-
-            
 
             {/* Instagram */}
 
@@ -212,34 +183,27 @@ const Home = () => {
 
             <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
               <Link href="http://www.youtube.com/@HustlewithSuphal-kc2no">
-
-              <svg
-                className="rounded-md transition-all duration-300 group-hover:scale-110"
-                xmlns="http://www.w3.org/2000/svg"
-                width={28}
-                height={28}
-                viewBox="0 0 72 72"
-                fill="none"
-              >
-                <path
-                  d="M61.1026 23.7185C60.5048 21.471 58.7363 19.6981 56.4863 19.0904C52.4181 18 36.0951 18 36.0951 18C36.0951 18 19.7805 18 15.7039 19.0904C13.4622 19.6897 11.6937 21.4627 11.0876 23.7185C10 27.7971 10 36.3124 10 36.3124C10 36.3124 10 44.8276 11.0876 48.9063C11.6854 51.1537 13.4539 52.9267 15.7039 53.5343C19.7805 54.6247 36.0951 54.6247 36.0951 54.6247C36.0951 54.6247 52.4181 54.6247 56.4863 53.5343C58.728 52.935 60.4965 51.162 61.1026 48.9063C62.1902 44.8276 62.1902 36.3124 62.1902 36.3124C62.1902 36.3124 62.1902 27.7971 61.1026 23.7185Z"
-                  fill="#FF3000"
-                />
-                <path
-                  d="M30.8811 44.1617L44.4392 36.3124L30.8811 28.463V44.1617Z"
-                  fill="white"
-                />
-              </svg>
-
+                <svg
+                  className="rounded-md transition-all duration-300 group-hover:scale-110"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={28}
+                  height={28}
+                  viewBox="0 0 72 72"
+                  fill="none"
+                >
+                  <path
+                    d="M61.1026 23.7185C60.5048 21.471 58.7363 19.6981 56.4863 19.0904C52.4181 18 36.0951 18 36.0951 18C36.0951 18 19.7805 18 15.7039 19.0904C13.4622 19.6897 11.6937 21.4627 11.0876 23.7185C10 27.7971 10 36.3124 10 36.3124C10 36.3124 10 44.8276 11.0876 48.9063C11.6854 51.1537 13.4539 52.9267 15.7039 53.5343C19.7805 54.6247 36.0951 54.6247 36.0951 54.6247C36.0951 54.6247 52.4181 54.6247 56.4863 53.5343C58.728 52.935 60.4965 51.162 61.1026 48.9063C62.1902 44.8276 62.1902 36.3124 62.1902 36.3124C62.1902 36.3124 62.1902 27.7971 61.1026 23.7185Z"
+                    fill="#FF3000"
+                  />
+                  <path
+                    d="M30.8811 44.1617L44.4392 36.3124L30.8811 28.463V44.1617Z"
+                    fill="white"
+                  />
+                </svg>
               </Link>
-              
-             
             </button>
           </div>
-
-
         </div>
-     
       </div>
     </>
   );
