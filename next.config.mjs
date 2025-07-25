@@ -15,8 +15,16 @@ const nextConfig = {
             port: '',
             pathname: '/wp-content/uploads/**',
           },
+                {
+            protocol: 'https',
+            hostname: 'media.istockphoto.com',
+            
+          },
         ],
       },
 };
 
 export default nextConfig;
+
+
+
