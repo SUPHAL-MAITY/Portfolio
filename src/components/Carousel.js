@@ -9,9 +9,6 @@ import project3 from "../../public/blog_app.png";
 import project4 from "../../public/Landing_page.png";
 import project5 from "../../public/gym_ui.png";
 
-
-
-
 const MyCarousel = () => {
   return (
     <Carousel>
@@ -41,11 +38,9 @@ const MyCarousel = () => {
                 href="https://ecom-frontend-tawny.vercel.app/"
                 target="_blank"
               >
-                <span className=" "> Website link{" "}</span>{" "}
+                <span className=" "> Website link </span>{" "}
               </Link>
             </h3>
-
-            
           </div>
         </div>
 
@@ -57,12 +52,8 @@ const MyCarousel = () => {
             alt="Image 1"
           />
         </div>
-
       </div>
 
-
-
-      
       <div className="flex flex-col md:flex-row    justify-center items-center">
         <div className=" flex flex-col items-center justify-center  mx-4">
           <h1 className="pt-4 font-bold font-serif text-5xl  md:text-9xl ">
@@ -73,7 +64,7 @@ const MyCarousel = () => {
             <h3 className="font-serif p-2 text-5xl text-yellow-400">
               Food App
             </h3>
-         
+
             <h3 className="text-2xl pt-2 font-mono   hover:underline">
               <Link
                 href="https://github.com/SUPHAL-MAITY/Food-App"
@@ -88,11 +79,9 @@ const MyCarousel = () => {
                 href="https://food-app-frontend-puce.vercel.app/"
                 target="_blank"
               >
-                <span className=" "> Website link{" "}</span>{" "}
+                <span className=" "> Website link </span>{" "}
               </Link>
             </h3>
-
-            
           </div>
         </div>
 
@@ -106,10 +95,6 @@ const MyCarousel = () => {
         </div>
       </div>
 
-
-
-
-    
       <div className="flex flex-col md:flex-row    justify-center items-center">
         <div className=" flex flex-col items-center justify-center  mx-4">
           <h1 className="pt-4 font-bold font-serif text-5xl  md:text-9xl ">
@@ -134,11 +119,9 @@ const MyCarousel = () => {
                 href="https://blog-app-frontend-blue-seven.vercel.app/"
                 target="_blank"
               >
-                <span className=" "> Website link{" "}</span>{" "}
+                <span className=" "> Website link </span>{" "}
               </Link>
             </h3>
-
-            
           </div>
         </div>
 
@@ -152,9 +135,6 @@ const MyCarousel = () => {
         </div>
       </div>
 
-
-
-      
       <div className="flex flex-col md:flex-row    justify-center items-center">
         <div className=" flex flex-col items-center justify-center  mx-4">
           <h1 className="pt-4 font-bold font-serif text-5xl  md:text-9xl ">
@@ -166,14 +146,8 @@ const MyCarousel = () => {
               Travel website
             </h3>
             <h3 className="text-2xl pt-2 font-mono   ">
-            
-                <span className=" ">GitHub </span>{" "}
-              
+              <span className=" ">GitHub </span>{" "}
             </h3>
-
-           
-
-            
           </div>
         </div>
 
@@ -187,7 +161,6 @@ const MyCarousel = () => {
         </div>
       </div>
 
-
       <div className="flex flex-col md:flex-row    justify-center items-center">
         <div className=" flex flex-col items-center justify-center  mx-4">
           <h1 className="pt-4 font-bold font-serif text-5xl  md:text-9xl ">
@@ -199,14 +172,8 @@ const MyCarousel = () => {
               Landing page of Gym website
             </h3>
             <h3 className="text-2xl pt-2 font-mono   ">
-            
-                <span className=" ">GitHub </span>{" "}
-              
+              <span className=" ">GitHub </span>{" "}
             </h3>
-
-           
-
-            
           </div>
         </div>
 
@@ -219,16 +186,6 @@ const MyCarousel = () => {
           />
         </div>
       </div>
-
-
-
-
-
-
-
-
-
-      
     </Carousel>
   );
 };
