@@ -182,7 +182,7 @@ const Home = () => {
             {/* youtube */}
 
             <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
-              <Link href="http://www.youtube.com/@HustlewithSuphal-kc2no">
+              <Link href="http://www.youtube.com/@hustle_with_suphal">
                 <svg
                   className="rounded-md transition-all duration-300 group-hover:scale-110"
                   xmlns="http://www.w3.org/2000/svg"
