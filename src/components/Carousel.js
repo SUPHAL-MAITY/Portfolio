@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
 import project1 from "../../public/ecom_watch.png";
-import project2 from "../../public/Food_app.png";
+import project2 from "../../public/food.png"
 import project3 from "../../public/blog_app.png";
 import project4 from "../../public/Landing_page.png";
 import project5 from "../../public/gym_ui.png";
